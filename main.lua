@@ -1,3 +1,7 @@
+DEV = true
+
+require("requires")
+
 local monogram = love.graphics.newFont("assets/fonts/monogram.ttf", 100)
 
 function love.draw()
