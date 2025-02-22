@@ -3,3 +3,5 @@ require("engine/utils/test")
 
 require("engine/hitbox/point")
 require("engine/hitbox/rectangle")
+
+require("engine/draggable")

@@ -2,13 +2,14 @@
 --- @field width integer
 --- @field height integer
 --- @field pos Point Position of the top left corner of the hitbox.
+--- @operator call:RectangleHitbox
 RectangleHitbox = class()
 
 --- @param width integer
 --- @param height integer
 --- @return RectangleHitbox
 function RectangleHitbox:new(width, height)
-	local it = clone(RectangleHitbox)
+	local it = clone(self)
 
 	it.width = width
 	it.height = height
